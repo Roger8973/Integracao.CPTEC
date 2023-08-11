@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Refit" Version="7.0.0" />
+    <PackageReference Include="Refit.Newtonsoft.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integracao.CPTEC.Domain\Integracao.CPTEC.Domain.csproj" />
+    <ProjectReference Include="..\Integracao.CPTEC.Infra.Data\Integracao.CPTEC.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.143" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.20" />
+    <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.32.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
+	  <PackageReference Include="NetDevPack.Security.JwtExtensions" Version="7.0.0" />
+	  <PackageReference Include="NetDevPack" Version="6.1.0" />
+	  <PackageReference Include="NetDevPack.Security.Jwt.AspNetCore" Version="7.1.3" />
+	  <PackageReference Include="NetDevPack.Security.Jwt.Core" Version="7.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integracao.CPTEC.Domain\Integracao.CPTEC.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
